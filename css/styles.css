@@ -1,0 +1,90 @@
+ html, body {
+          background: #eeeeee;
+          overflow-x: hidden;
+          overflow-y: hidden;
+      }
+
+.form-container {
+            width: 100%;
+            background: white; 
+            padding: 40px;
+            border: 1px solid #ccc; 
+            border-radius: 10px; 
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+.form-label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        
+.form-input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        
+.form-submit {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+.form-submit:hover {
+            background-color: #45a049;
+        }
+        
+.logo {
+    padding: 20px 0px;
+    max-width: 75%;
+    height: auto;
+}
+
+.profile-img-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.table-container {
+      padding: 20px;
+      background-color: white; 
+      border-radius: 10px; 
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+      margin: 20px; 
+    }
+
+table {
+      border-collapse: collapse; 
+    }
+    
+.login-body {
+    background: #393a3d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-form-container {
+    background: #fff;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.login-logo {
+    width: 400px; /* Adjust size as needed */
+}
+
+.text-white {
+    color: #fff;
+}
+

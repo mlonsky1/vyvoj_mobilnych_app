@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+    <link href="https://www.w3schools.com/w3css/4/w3.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <p align="center">
+        <div class="col-10" align="center">
+            <div class="col-4 " align="right">
+                <div class="form-container">
+                    <form action="editovany-tovar-ok.php?id=<?= htmlspecialchars($id) ?>" method="POST">
+                        <div class="form-group row">
+                            <label class="col-sm-4 col-form-label">Názov</label>
+                            <div class="col-sm-6">
+                                <input class="form-control" name="nazov" type="text" value="<?= htmlspecialchars($nazov) ?>" />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-sm-4 col-form-label">Výrobca</label>
+                            <div class="col-sm-6">
+                                <input class="form-control" name="vyrobca" type="text" value="<?= htmlspecialchars($vyrobca) ?>" />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-sm-4 col-form-label">Cena</label>
+                            <div class="col-sm-6">
+                                <input class="form-control" name="cena" type="text" value="<?= htmlspecialchars($cena) ?>" />
+                            </div>
+                        </div>
+                        <div class="form-group row pb-2">
+                            <label class="col-sm-4 col-form-label">Stav ks</label>
+                            <div class="col-sm-6">
+                                <input class="form-control" name="kusov" type="text" value="<?= htmlspecialchars($kusov) ?>" />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-sm-6" align="right">
+                                <button type="submit" class="btn btn-primary">uložiť</button>
+                            </div>
+                            <div class="col-sm-6" align="left">
+                                <button type="reset" class="btn btn-danger">reset</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </p>
+</body>
+</html>
